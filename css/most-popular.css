@@ -1,4 +1,5 @@
 /* Most popular  */
+
 .accommodations-list .most-popular-flex {
     display: flex;
     flex-direction: column;
@@ -9,6 +10,7 @@
 }
 
 /* Most popular cards */
+
 .most-popular {
     display: flex;
     flex-direction: column;

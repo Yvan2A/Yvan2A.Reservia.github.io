@@ -53,6 +53,7 @@
 .most-popular-description p, .most-popular-description h3 {
     margin: 0.2rem;
 }
+
 .blue {
      color: var(--blue);
 }
