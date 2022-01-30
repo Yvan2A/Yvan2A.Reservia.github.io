@@ -1,0 +1,35 @@
+/* Activities */
+
+.activity {
+    display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+  }
+  .activity-title {
+    grid-column: 1/-1;
+  }
+  .activity-card {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+  }
+  .activity-card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  .activity-card-img {
+    position: relative;
+    flex: 1;
+  }
+  .activity-card-img-picture {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .activity-card-title {
+    margin: 1.2rem 1.5rem;
+  }

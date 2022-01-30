@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", "sans-serif";
+}
+
+/* Header + Nav */
+header{
+    padding: 0 5rem;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+}
+nav a {
+    padding: 2rem;
+    border-top: 3px solid transparent;
+}
+nav a:hover {
+    border-top-color: var(--blue);
+}
+#logo {
+    margin-right: auto;
+}
+.signup {
+    font-weight: bold;
+    color: var(--blue);
+}
+.sub-nav {
+    display: flex;
+}
+.sub-nav a:hover {
+    color: var(--blue);
+}

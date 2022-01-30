@@ -1,0 +1,61 @@
+/* Accommodations */
+.accommodations-list {
+    display: flex;
+    gap: 1rem;
+}
+.accommodations-list > div {
+    background-color: var(--lightgrey);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.accommodations-list .city {
+    flex-basis: 66%;
+}
+.accommodations-list .city a{
+    font-weight: bold;
+}
+.accommodations-list .most-popular {
+    flex-basis: 33%;
+}
+
+/* Accommodations list  */
+.city-accommodation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+/* Accommodations cards */
+.accommodation-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 16px #0000002e;
+    flex-grow: 1;
+    transition: all 0.2s;
+    flex-basis: 25%;
+    min-width: 15rem;
+    cursor: pointer;
+}
+.accommodation-card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 5px 11px -5px #000000;
+}
+.accommodation-card img {
+    border-radius: 1rem 1rem 0 0;
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+.accommodation-card p, .accommodation-card h3, 
+.most-popular-description p, .most-popular-description h3 {
+    margin: 0.2rem;
+}
+.blue {
+     color: var(--blue);
+}
+.darkgrey {
+    color: var(--darkgrey);
+}

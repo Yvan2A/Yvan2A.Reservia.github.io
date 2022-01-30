@@ -1,0 +1,35 @@
+/* Filters */
+.filters-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.filter {
+    border: 2px solid var(--lightgrey);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    transition: all 200ms;
+}
+.filter .fas {
+    color: var(--blue);
+    background: var(--lightblue);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.filter span {
+    font-weight: bold;
+    padding: 0 1rem;
+}
+.filter:hover {
+    background-color: var(--lighterblue);
+    transform: scale(1.02);
+
+}

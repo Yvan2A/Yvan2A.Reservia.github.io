@@ -1,0 +1,8 @@
+.footercontainer {
+    background-color: var(--lightgrey);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: smaller;
+    padding: 1rem;
+}
