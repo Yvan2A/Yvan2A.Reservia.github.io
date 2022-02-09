@@ -1,13 +1,7 @@
-
-* {
-    box-sizing: border-box;
-    font-family: "Raleway", "sans-serif";
-}
-
 /* Header + Nav */
 
 header{
-    padding: 0 5rem;
+    padding: 0 19rem;
 }
 a {
     color: inherit;
