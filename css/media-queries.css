@@ -1,49 +1,52 @@
 /* Media header */
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 299px) and (max-width: 800px) {
     .sub-nav {
-       order: 1; 
-       flex-basis: 100%;
+      order: 1; 
+      flex-basis: 100%;
     }
     .sub-nav a {
-        flex-basis: 50%;
-        text-align: center;
-        border-bottom: 3px solid var(--lightgrey);
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 3px solid var(--lightgrey);
     }
     .sub-nav a:hover {
-        border-bottom-color: var(--blue);
-        border-top-color: transparent;
+      border-bottom-color: var(--blue);
+      border-top-color: transparent;
     }
 }
 
 /* Media Search bar */
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 299px) and (max-width: 800px) {
     .search-form .search-text {
-        display: none;
+      display: none;
     }
     .fas.fa-search {
-        background-color: inherit;
-        display: inline;
+      background-color: inherit;
+      display: inline;
     }
 }
 
 /* Media Accommoadations */
 
-@media (min-width: 300px) and (max-width: 1200px) {
+@media (min-width: 299px) and (max-width: 1200px) {
     .accommodations-list {
-        flex-direction: column;
+      flex-direction: column;
+    }
+    .city-accommodation-list {
+      gap: 4rem;
     }
     .most-popular {
-        order: -1;
+      order: -1;
     }
 }
 
 /* Most popular  */
 
-@media (min-width: 300px) and (max-width: 1000px) {
+@media (min-width: 299px) and (max-width: 1000px) {
     .accommodations-list .most-popular-flex {
-        flex-direction: row;
+      flex-direction: row;
     }       
 }
 
@@ -93,7 +96,7 @@
       grid-template-rows: auto 12rem 12rem 12rem;
     }
   }
-  @media (max-width: 650px) {
+  @media (max-width: 600px) {
     .activity {
       row-gap: 2rem;
       grid-template-columns: 1fr;
@@ -103,10 +106,21 @@
 
 /* Footer */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .footercontainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+
+/* Mobile responsive */
+
+@media (min-width: 300px) and (max-width: 600px) {
+    main {
+    padding: 0;
+  }
+    header {
+    padding: 0;
   }
 }

@@ -18,7 +18,7 @@
 .most-popular-card.accommodation-card img {
     height: auto;
     border-radius: 1rem 0 0 1rem;
-    width: 40%;
+    width: 50%;
     margin-right: 0.5rem; 
     object-fit: cover;
 }

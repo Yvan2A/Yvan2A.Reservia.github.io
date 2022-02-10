@@ -37,7 +37,7 @@
     flex-grow: 1;
     transition: all 0.2s;
     flex-basis: 25%;
-    min-width: 15rem;
+    min-width: 10rem;
     cursor: pointer;
 }
 .accommodation-card:hover {
@@ -54,7 +54,6 @@
 .most-popular-description p, .most-popular-description h3 {
     margin: 0.2rem;
 }
-
 .blue {
      color: var(--blue);
 }

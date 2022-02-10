@@ -11,9 +11,10 @@
 .search-form i {
     background-color: var(--lightgrey);
     border-radius: 1rem 0 0 1rem;
+    font-size: 1.5rem; 
 }
 .search-form input {
-    flex-basis: 16rem;
+    flex-basis: 17rem;
     border: 1px solid var(--lightgrey);
     overflow: auto;
 }
