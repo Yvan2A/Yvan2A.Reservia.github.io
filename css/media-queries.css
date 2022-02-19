@@ -1,6 +1,6 @@
 /* Media header */
 
-@media (min-width: 299px) and (max-width: 800px) {
+@media (min-width: 299px) and (max-width: 768px) {
     .sub-nav {
       order: 1; 
       flex-basis: 100%;
@@ -18,7 +18,7 @@
 
 /* Media Search bar */
 
-@media (min-width: 299px) and (max-width: 800px) {
+@media (min-width: 299px) and (max-width: 768px) {
     .search-form .search-text {
       display: none;
     }
@@ -30,7 +30,7 @@
 
 /* Media Accommoadations */
 
-@media (min-width: 299px) and (max-width: 1200px) {
+@media (min-width: 299px) and (max-width: 992px) {
     .accommodations-list {
       flex-direction: column;
     }
@@ -44,7 +44,7 @@
 
 /* Most popular  */
 
-@media (min-width: 299px) and (max-width: 1000px) {
+@media (min-width: 299px) and (max-width: 992px) {
     .accommodations-list .most-popular-flex {
       flex-direction: row;
     }       
@@ -52,7 +52,7 @@
 
 /* Activities */
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
     .activity {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
@@ -82,14 +82,14 @@
       grid-row: 4/7;
     }
   }
-  @media (max-width: 1100px) {
+  @media (max-width: 992px) {
     .activity {
       row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto 12rem 12rem;
     }
   }
-  @media (max-width: 925px) {
+  @media (max-width: 992px) {
     .activity {
       row-gap: 2rem;
       grid-template-columns: repeat(2, 1fr);
@@ -106,7 +106,7 @@
 
 /* Footer */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .footercontainer {
       display: flex;
       flex-direction: column;
@@ -116,7 +116,7 @@
 
 /* Mobile responsive */
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 768px) {
     main {
     padding: 0;
   }
