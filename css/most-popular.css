@@ -35,10 +35,10 @@
 .most-popular-card .stars {
     margin-top: auto;
 }
-.most-popular h3 {
+.most-popular h2 {
     display: flex;
     justify-content: space-between;
 }
-.most-popular h3, .city h3 {
+.most-popular h2, .city h2 {
     margin-top: 0.5rem;
 }
