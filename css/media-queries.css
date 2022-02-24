@@ -123,4 +123,13 @@
     header {
     padding: 0;
   }
+    body {
+      margin: 13%;
+    }
+    .most-popular-card {
+      min-width: 15rem;
+      max-height: 11rem; 
+    }
 }
+
+
